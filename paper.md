@@ -47,3 +47,7 @@ Objectives and Aims
 The main objective is to capitalize on Short Messaging System as notification system when the student needs to go online for 
 
 his/her enrolled online course. This will benefit mainly the students marginalize by internet barriers.
+
+Solution
+
+Most state colleges and universities use open source release of LMS's, MOODLE is most widely used. Modification of this FOSS and its database is allowed hence the spirit of open source. A separate application will be written to continously check for new entries in the database on specific tables everytime a new entry is made. The application will determine what action to perform base on the type of entry committed in the database. The application will then alert the concerned students via SMS using the PHP SMS API.
